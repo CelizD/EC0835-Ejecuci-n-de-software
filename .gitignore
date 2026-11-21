@@ -1,0 +1,26 @@
+# Entorno virtual
+mi_entorno/
+venv/
+env/
+
+# Base de datos y respaldos (no queremos subirlos porque son locales)
+*.db
+sistema.db
+backups/
+
+# Carpetas de PyInstaller
+build/
+dist/
+*.spec
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code
+.vscode/
